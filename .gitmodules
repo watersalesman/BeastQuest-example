@@ -1,0 +1,3 @@
+[submodule "beastquest"]
+	path = beastquest
+	url = https://github.com/watersalesman/beastquest
