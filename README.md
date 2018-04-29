@@ -1,5 +1,7 @@
 # BeastQuest Example
 
+[![Travis CI](https://travis-ci.org/watersalesman/BeastQuest-example.svg?branch=master)](https://travis-ci.org/watersalesman/BeastQuest-example)
+
 An example project that builds and links against [BeastQuest](https://github.com/watersalesman/BeastQuest).
 This example will simply perform a GET request on the provided URL and print out the response body, like so:
 

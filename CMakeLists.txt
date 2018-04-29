@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.7.2)
 project(http_client CXX)
 
+# Set standard
+set (CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 # Build and configure Boost and OpenSSL
 set(BeastQuest_BUILD_DEPS ON)
 
