@@ -34,7 +34,7 @@ before_install:
 
 script:
     - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then ~/.local/bin/gunicorn httpbin:app; fi &
-    - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then ~/Library/Python/3.6/bin/gunicorn httpbin:app; fi &
+    - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then ~/Library/Python/3.7/bin/gunicorn httpbin:app; fi &
     - mkdir build && cd build
     - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then cmake .. -DCMAKE_CXX_COMPILER=$CXX; fi
     - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then cmake ..; fi
